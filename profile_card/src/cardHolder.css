@@ -1,0 +1,8 @@
+.cardList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub{
+    text-align: center;
+}
