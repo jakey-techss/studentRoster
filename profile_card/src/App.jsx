@@ -29,7 +29,7 @@ const App = () => {
             <ClassCard title={"Advanced Programming for IT"} subtitle={"Technology High School"}>
                 {students.map((student) => {
                     return <StudentCard
-                         key={student.id}
+                        key={student.id}
                         name={student.name}
                         grade={student.grade}
                         role={student.role}
